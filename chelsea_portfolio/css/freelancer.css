@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Frank Ruhl Libre', sans-serif;
   overflow-x: hidden;
 }
 p {
@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Frank Ruhl Libre", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -64,12 +64,13 @@ hr.star-primary:after {
   background-color: white;
   color: #2C3E50;
 }
-.img-centered {
+.-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: url('https://i.imgur.com/Ze2Qm.jpg');
+  background-size: cover;
   color: white;
 }
 header .container {
@@ -82,7 +83,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Frank Ruhl Libre", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -105,7 +106,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #2C3E50;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Frank Ruhl Libre", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
@@ -186,7 +187,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: rgb(128,128,128);
   color: white;
 }
 @media (max-width: 767px) {
